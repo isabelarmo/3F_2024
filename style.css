@@ -1,6 +1,20 @@
-body{
-    background-color: aquamarine;
+:root{
+    --cor-fundo: #1e1e1e;
+    --verde: #6fff57;
+    --branco: #ffff;
+    --botaoativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
 }
-.titulo-principal {
-    color: blueviolet;
+*{
+    background-color: var(--cor-fundo);
+    color: var(--branco);
+}
+span{
+    color: var(--verde)
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
