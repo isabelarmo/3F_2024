@@ -31,6 +31,16 @@ text-align: center;
 display: flex;
 justify-content: center;
 }
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+}
+.contador-digito-texto{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
+}
+
 .titulo-principal{
     text-align: center;
     width: 100%;

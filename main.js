@@ -26,14 +26,14 @@ minutos = minutos%60
 horas = horas%24
 return [dias,horas,minutos,segundos]
 }
-let contadorPrimeiro = calcularTempo(tempoObjetivo1)
+/*let contadorPrimeiro = calcularTempo(tempoObjetivo1)
 contador[0].textContent = `Faltam ${contadorPrimeiro [0]} dias, Fatam ${contadorPrimeiro [1]} horas, Fatam ${contadorPrimeiro [2]} minutos, Fatam ${contadorPrimeiro [3]} segundos`
 let contadorSegundo = calcularTempo(tempoObjetivo2)
 contador[1].textContent = `Faltam ${contadorSegundo [0]} dias, Fatam ${contadorSegundo [1]} horas, Fatam ${contadorSegundo [2]} minutos, Fatam ${contadorSegundo [3]} segundos`
 let contadorTerceiro = calcularTempo(tempoObjetivo3)
 contador[2].textContent = `Faltam ${contadorTerceiro [0]} dias, Fatam ${contadorTerceiro [1]} horas, Fatam ${contadorTerceiro [2]} minutos, Fatam ${contadorTerceiro [3]} segundos`
 let contadorQuarto = calcularTempo(tempoObjetivo4)
-contador[3].textContent = `Faltam ${contadorQuarto [0]} dias, Fatam ${contadorQuarto [1]} horas, Fatam ${contadorQuarto [2]} minutos, Fatam ${contadorQuarto [3]} segundos`
+contador[3].textContent = `Faltam ${contadorQuarto [0]} dias, Fatam ${contadorQuarto [1]} horas, Fatam ${contadorQuarto [2]} minutos, Fatam ${contadorQuarto [3]} segundos` */
 
 
 for (let i = 0; i < botoes.length; i++){
